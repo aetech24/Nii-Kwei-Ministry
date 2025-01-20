@@ -1,9 +1,9 @@
 import Image from 'next/image';
-import niiKwei1 from '../../public/singer1.png'
-import niiKwei2 from '../../public/singer2.png'
-import niiKwei3 from '../../public/singer3.png'
-import niiKwei4 from '../../public/singer4.png'
-import niiKwei5 from '../../public/singer5.png'
+import niiKwei1 from '@/public/singer1.png'
+import niiKwei2 from '@/public/singer2.png'
+import niiKwei3 from '@/public/singer3.png'
+import niiKwei4 from '@/public/singer4.png'
+import niiKwei5 from '@/public/singer5.png'
 
 const teamMembers = [
   {

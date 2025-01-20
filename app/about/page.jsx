@@ -7,9 +7,9 @@ import Singer2 from '@/public/Image2.png';
 import Image from 'next/image';
 // import AOS from 'aos';
 // import 'aos/dist/aos.css';
-import TeamSection from '../_component/team';
-import Values from '../_component/values';
-import Gallery from '../_component/gallery';
+import Gallery from './_component/gallery';
+import TeamSection from './_component/team';
+import Values from './_component/values';
 
 const page = () => {
   return (
