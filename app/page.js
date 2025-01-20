@@ -6,6 +6,7 @@ import Banner from '@/public/banner.png'
 import Image from 'next/image'
 import EventCard from '@/components/EventCard'
 import StoreCard from './store/_component/StoreCard'
+import SermonCard from '@/components/SermonCard'
 
 const page = () => {
   return (
@@ -57,11 +58,12 @@ const page = () => {
         </div>
         <div className='relative'>
           <Image src={Deco} alt="deco" className='absolute top-0 left-0 w-48'/>
-          <div className='flex flex-col items-center py-24'>
+          <div className='flex flex-col gap-4 items-center py-24 px-16'>
             <h1 className="text-3xl font-semibold relative pb-1">
               Recent Sermons
               <span className="absolute left-0 bottom-0 w-20 h-1 bg-violet-500"></span>
             </h1>
+            <SermonCard />
           </div>
         </div>
         <div className="flex items-center justify-center w-full">
