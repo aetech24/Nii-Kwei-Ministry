@@ -17,7 +17,7 @@ const page = () => {
           alt="hero section for about page"
           className="bg-cover bg-center absolute w-full h-700"
         />
-        <div className="absolute inset-0 flex items-center justify-start pl-0 ml-40">
+        <div className="absolute inset-0 flex items-center justify-start px-20">
           <div
             className="text-white flex flex-col items-start"
             data-aos="fade-up"
@@ -39,18 +39,18 @@ const page = () => {
       </div>
 
       {/*BUTTONS*/}
-      <div className="flex space-x-4 ml-40 mt-[-20]">
-        <button className="bg-green-500 text-white py-2 px-6 rounded-lg hover:bg-green-600 focus:outline-none z-[1000]">
+      <div className="flex space-x-4 px-20 mt-[-20]">
+        <button className="bg-button text-white py-2 px-6 rounded-lg hover:bg-green-600 focus:outline-none z-[1000]">
           Watch Sermons
         </button>
-        <button className="border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-green-500 focus:outline-none z-[1000]">
+        <button className="border-2 border-white text-white px-6 py-2 rounded-lg hover:bg-white hover:text-button focus:outline-none z-[1000]">
           View Gallery
         </button>
       </div>
 
       {/*Video Section..........................................................................*/}
 
-      <div className="py-10 px-10 text-center mt-20">
+      <div className="py-10 px-20 text-center mt-20">
         {/* Section Title */}
         <h2 className="text-3xl font-semibold">
           Latest Content
@@ -143,7 +143,7 @@ const page = () => {
       {/*THE RESOURCE SECTION*/}
 
 
-<div className="py-10 px-4 lg:px-32">
+<div className="py-10 px-4 lg:px-20">
   {/* Section Title */}
   <h2 className="text-3xl font-semibold text-gray-800">
     Resources
