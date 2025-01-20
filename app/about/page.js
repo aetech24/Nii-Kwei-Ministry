@@ -20,7 +20,7 @@ const page = () => {
           alt="hero section for about page"
           className="bg-cover bg-center absolute w-full h-700"
         />
-        <div className="absolute inset-0 flex items-center justify-start pl-0 ml-40">
+        <div className="absolute inset-0 flex items-center justify-start  px-20">
           <div
             className="text-white flex flex-col items-start"
             data-aos="fade-up"
@@ -38,7 +38,7 @@ const page = () => {
 
        {/* the Vision and Mission Section */}
 
-      <div className="py-10 flex flex-col gap-10 lg:mx-24 px-4">
+      <div className="py-10 flex flex-col gap-10 lg:px-20 px-4">
         <div className='py-10 flex flex-col gap-10'>
           <div className='flex flex-col md:flex-row items-center justify-between gap-10' data-aos="fade-right">
           <Image src={Singer1} alt="Founder1" width={500} height={500} />

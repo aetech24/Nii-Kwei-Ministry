@@ -12,13 +12,13 @@ const Gallery = () => {
 
   
     return (
-      <div className="mx-auto my-16 text-center mt-10">
+      <div className="my-16 text-center mt-10 px-20">
         <h2 className="text-3xl font-bold mb-5 relative pb-1">
         Gallery
       <span className="absolute left-1/2 bottom-0 w-[4%] h-1 bg-violet-500"></span>
           </h2>
         <p className="mb-5">Capturing moments of worship</p>
-        <div className="max-md:flex-col flex gap-5 p-10">
+        <div className="max-md:flex-col flex gap-5">
           <Image
             src={image3} 
             alt="Gallery Image" 

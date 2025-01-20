@@ -29,8 +29,8 @@ const Navbar = () => {
                     <li className='hover:text-purple duration-300 ease-in'><Link href="/about">About Us</Link></li>
                     <li className='hover:text-purple duration-300 ease-in'><Link href="/pricing">Contact Us</Link></li>
                     <li className='hover:text-purple duration-300 ease-in'><Link href="/service">Donations</Link></li>
-                    <li className='hover:text-purple duration-300 ease-in'><Link href="/work">Store</Link></li>
-                    <li className='hover:text-purple duration-300 ease-in'><Link href="/work">Events</Link></li>
+                    <li className='hover:text-purple duration-300 ease-in'><Link href="/store">Store</Link></li>
+                    <li className='hover:text-purple duration-300 ease-in'><Link href="/event">Events</Link></li>
                 </ul>
                 <div className="flex items-center gap-10 text-white">
                     <div>

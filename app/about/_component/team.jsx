@@ -35,7 +35,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <div className="container mx-auto text-center my-16">
+    <div className="px-20 text-center my-16">
       <h2 className="text-3xl font-bold mb-8 relative pb-1">
         Meet Our Team
       <span className="absolute left-1/2 bottom-0 w-[8%] h-1 bg-violet-500"></span>
