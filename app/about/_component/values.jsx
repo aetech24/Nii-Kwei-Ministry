@@ -59,8 +59,8 @@ const CoreValues = () => {
               {value.icon}
               <h3 className="text-xl font-semibold mb-2">{value.title}</h3>
               <p className="text-gray-700 mb-4">{value.description}</p>
-              <p className="text-gray-500 italic"> {value.subtext}</p>
-              <p className="text-gray-5000-semibold"> {value.reference}</p>
+              <p className="text-gray-500 italic">{value.subtext}</p>
+              <p className="text-gray-5000-semibold">{value.reference}</p>
             </div>
           </div>
         ))}
