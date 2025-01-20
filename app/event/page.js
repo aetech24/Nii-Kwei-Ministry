@@ -5,12 +5,7 @@ import Hero1 from '@/public/Event1.png';
 import Hero2 from '@/public/Event2.png';
 import Hero3 from '@/public/Event3.png';
 import Hero from '@/public/EventBackground.png';
-
-// import Founder2 from '@/public/Image2.png';
-// import Founder3 from '@/public/Image3.png';
 import Image from 'next/image';
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 import Gallery from '../about/_component/gallery';
 
 const page = () => {
@@ -176,7 +171,7 @@ const page = () => {
       {/* Download Button */}
       <button>
         <Image
-          src={Download} // Replace with your actual path
+          src={Download} 
           alt="Download Icon"
           width={50}
           height={50}
@@ -189,7 +184,7 @@ const page = () => {
       <div className="flex items-center gap-4">
         {/* Icon */}
         <Image
-          src={Book} // Replace with your actual path
+          src={Book} 
           alt="Book Icon"
           width={40}
           height={40}
@@ -203,7 +198,7 @@ const page = () => {
       {/* Download Button */}
       <button>
         <Image
-          src={Download}// Replace with your actual path
+          src={Download}
           alt="Download Icon"
           width={50}
           height={50}
@@ -216,7 +211,7 @@ const page = () => {
       <div className="flex items-center gap-4">
         {/* Icon */}
         <Image
-          src={Music} // Replace with your actual path
+          src={Music} 
           alt="Music Icon"
           width={40}
           height={40}
@@ -230,7 +225,7 @@ const page = () => {
       {/* Download Button */}
       <button>
         <Image
-          src={Download}// Replace with your actual path
+          src={Download}
           alt="Download Icon"
           width={50}
           height={50}
