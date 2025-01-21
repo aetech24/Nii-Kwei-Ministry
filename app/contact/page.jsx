@@ -10,33 +10,30 @@ const page = () => {
   return (
     <div>
       <div className="h-[70vh] flex items-center justify-center w-full relative font-sans">
-  {/* Hero Image */}
-  <Image
-    src={Hero}
-    alt="hero section for about page"
-    className="bg-cover bg-center absolute w-full h-full"
-  />
+      {/* Hero Image */}
+      <Image
+        src={Hero}
+        alt="hero section for about page"
+        className="bg-cover bg-center absolute w-full h-full"
+      />
 
-  <div className="absolute inset-0 flex items-center justify-center md:justify-start px-4 md:px-20">
-    <div
-      className="text-white flex flex-col items-start"
-      data-aos="fade-up"
-    >
-      <h1 className="text-3xl md:text-5xl font-bold relative pb-1">
-        Contact Us
-        <span className="absolute left-0 bottom-0 w-[50%] h-1 bg-violet-500"></span>
-      </h1>
+      <div className="absolute inset-0 flex items-center justify-center md:justify-start px-4 md:px-20">
+        <div
+          className="text-white flex flex-col items-start"
+          data-aos="fade-up"
+        >
+          <h1 className="text-3xl md:text-5xl font-bold relative pb-1">
+            Contact Us
+            <span className="absolute left-0 bottom-0 w-[50%] h-1 bg-violet-500"></span>
+          </h1>
 
-      <p className="text-sm md:text-lg mt-4">
-        We'd love to hear from you! Reach out for inquiries, prayer
-        requests, or to get involved.
-      </p>
+          <p className="text-sm md:text-lg mt-4">
+            We'd love to hear from you! Reach out for inquiries, prayer
+            requests, or to get involved.
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-
-
-
       <div className="py-10 px-4 lg:px-20">
         {/* Section Title */}
         <h2 className="text-3xl font-semibold text-gray-800">
