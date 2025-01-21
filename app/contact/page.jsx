@@ -145,33 +145,28 @@ const page = () => {
           ></iframe>
         </div>
 
-  {/* Contact Information Section */}
-  <h2 className="text-2xl md:text-3xl font-bold mb-4 relative">
-    Contact Information
-    <span className="absolute left-0 bottom-0 w-[10%] h-1 bg-violet-500"></span>
-  </h2>
-  <div className="p-4 md:p-6 bg-white rounded-lg shadow-lg border border-gray-300">
-    <div className="flex flex-col space-y-4">
-      <div className="flex items-center gap-2">
-        <Image src={Call} alt="Phone Icon" className="w-6 h-6" />
-        <span className="text-sm md:text-lg">+233 123 456 789</span>
+        {/* Contact Information Section */}
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 relative">
+          Contact Information
+          <span className="absolute left-0 bottom-0 w-[10%] h-1 bg-violet-500"></span>
+        </h2>
+        <div className="p-4 md:p-6 bg-white rounded-lg shadow-lg border border-gray-300">
+          <div className="flex flex-col space-y-4">
+            <div className="flex items-center gap-2">
+              <Image src={Call} alt="Phone Icon" className="w-6 h-6" />
+              <span className="text-sm md:text-lg">+233 123 456 789</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Image src={Email} alt="Email Icon" className="w-6 h-6" />
+              <span className="text-sm md:text-lg">info@niikweiministries.org</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Image src={Clock} alt="Clock Icon" className="w-6 h-6" />
+              <span className="text-sm md:text-lg">Monday - Friday, 9:00 AM - 5:00 PM</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="flex items-center gap-2">
-        <Image src={Email} alt="Email Icon" className="w-6 h-6" />
-        <span className="text-sm md:text-lg">info@niikweiministries.org</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <Image src={Clock} alt="Clock Icon" className="w-6 h-6" />
-        <span className="text-sm md:text-lg">Monday - Friday, 9:00 AM - 5:00 PM</span>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
     </div>
   );
 }
