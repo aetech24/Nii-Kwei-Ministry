@@ -17,9 +17,9 @@ const page = () => {
     className="bg-cover bg-center absolute w-full h-full"
   />
 
-  <div className="absolute inset-0 flex items-center justify-center md:justify-start px-4 md:px-16 lg:px-40">
+  <div className="absolute inset-0 flex items-center justify-center md:justify-start px-4 md:px-20">
     <div
-      className="text-white flex flex-col items-start ml-[-20]"
+      className="text-white flex flex-col items-start"
       data-aos="fade-up"
     >
       <h1 className="text-3xl md:text-5xl font-bold relative pb-1">
@@ -37,7 +37,7 @@ const page = () => {
 
 
 
-      <div className="py-10 px-4 lg:px-32 mt-20">
+      <div className="py-10 px-4 lg:px-20 mt-20">
         {/* Section Title */}
         <h2 className="text-3xl font-semibold text-gray-800">
           Send Us a Message
@@ -45,7 +45,7 @@ const page = () => {
         </h2>
 
         {/* Contact Form */}
-        <form className="mt-8 space-y-6 border border-gray-300 rounded-lg p-10">
+        <form className="mt-4 space-y-3 border border-gray-300 rounded-lg p-4">
           {/* Name Input */}
           <div>
             <label
@@ -111,7 +111,8 @@ const page = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="text-center">
+        </form>
+          <div className="text-center mt-10">
             <button
               type="submit"
               className="bg-teal-500 text-white font-medium px-6 py-3 rounded-lg hover:bg-teal-600 transition duration-300"
@@ -119,38 +120,37 @@ const page = () => {
               Send Message
             </button>
           </div>
-        </form>
       </div>
 
       {/*LOCATION HERE*/}
 
 
-      <div className="container mx-auto my-16 px-4 md:px-8 lg:px-20 text-left">
+      <div className="my-16 px-4 md:px-8 lg:px-20 text-left">
   {/* Location Section */}
-  <h2 className="text-2xl md:text-3xl font-bold mb-4 relative">
-    Our Location
-    <span className="absolute left-0 bottom-0 w-[10%] h-1 bg-violet-500"></span>
-  </h2>
-  <p className="mb-8 flex items-center gap-2">
-    <Image src={Location} alt="LocationIcon" className="w-5 h-5" />
-    123 Faith Avenue, Accra, Ghana
-  </p>
-  <div className="relative w-full h-64 sm:h-80 md:h-96 mb-16">
-    <iframe
-      title="Our Location"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.963938407878!2d-0.19222268467843605!3d5.603722696218088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfc7e1eaa7d4b5%3A0x35e5a74e3c4f7793!2sKofi%20Kuma%20to%20Kofi%20Kuma%20Ministry!5e0!3m2!1sen!2sgh!4v1630246465454!5m2!1sen!2sgh"
-      className="w-full h-full border-0 rounded-lg"
-      allowFullScreen
-      loading="lazy"
-    ></iframe>
-  </div>
+        <h2 className="text-2xl md:text-3xl font-bold mb-4 relative">
+          Our Location
+          <span className="absolute left-0 bottom-0 w-[10%] h-1 bg-violet-500"></span>
+        </h2>
+        <p className="mb-8 flex items-center gap-2">
+          <Image src={Location} alt="LocationIcon" className="w-5 h-5" />
+          123 Faith Avenue, Accra, Ghana
+        </p>
+        <div className="relative w-full h-64 sm:h-80 md:h-96 mb-16">
+          <iframe
+            title="Our Location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.963938407878!2d-0.19222268467843605!3d5.603722696218088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdfc7e1eaa7d4b5%3A0x35e5a74e3c4f7793!2sKofi%20Kuma%20to%20Kofi%20Kuma%20Ministry!5e0!3m2!1sen!2sgh!4v1630246465454!5m2!1sen!2sgh"
+            className="w-full h-full border-0 rounded-lg"
+            allowFullScreen
+            loading="lazy"
+          ></iframe>
+        </div>
 
   {/* Contact Information Section */}
   <h2 className="text-2xl md:text-3xl font-bold mb-4 relative">
     Contact Information
     <span className="absolute left-0 bottom-0 w-[10%] h-1 bg-violet-500"></span>
   </h2>
-  <div className="container mx-auto my-16 p-4 md:p-6 bg-white rounded-lg shadow-lg border border-gray-300">
+  <div className="p-4 md:p-6 bg-white rounded-lg shadow-lg border border-gray-300">
     <div className="flex flex-col space-y-4">
       <div className="flex items-center gap-2">
         <Image src={Call} alt="Phone Icon" className="w-6 h-6" />
