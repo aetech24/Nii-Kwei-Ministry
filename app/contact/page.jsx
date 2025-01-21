@@ -37,7 +37,7 @@ const page = () => {
 
 
 
-      <div className="py-10 px-4 lg:px-20 mt-20">
+      <div className="py-10 px-4 lg:px-20">
         {/* Section Title */}
         <h2 className="text-3xl font-semibold text-gray-800">
           Send Us a Message
