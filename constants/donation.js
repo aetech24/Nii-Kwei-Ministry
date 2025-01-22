@@ -1,9 +1,9 @@
-import Family from '@/public/donate/family.png'
 import Child from '@/public/donate/child.png'
-import Outreach from '@/public/donate/outreach.png'
-import Live from '@/public/donate/live.png'
-import Host from '@/public/donate/host.png'
+import Family from '@/public/donate/family.png'
 import Gift from '@/public/donate/gift.png'
+import Host from '@/public/donate/host.png'
+import Live from '@/public/donate/live.png'
+import Outreach from '@/public/donate/outreach.png'
 
 export const impact = [
     {image: Family, number: "1000+", text: "Families provided with meals"},
@@ -13,7 +13,7 @@ export const impact = [
 ]
 
 export const give = [
-    {image: Host, text: "Host live-changing worship service"},
-    {image: Gift, text: "Giving resourcesfor spiritual growth"},
+    {image: Host, text: "Host life-changing worship service"},
+    {image: Gift, text: "Giving resources for spiritual growth"},
     {image: Host, text: "Serve vulnerable communities"},
 ]

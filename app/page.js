@@ -1,13 +1,11 @@
-import React from 'react'
+import EventCard from '@/components/EventCard'
+import FeaturedProducts from '@/components/FeaturedProducts'
+import SermonCard from '@/components/SermonCard'
 import Hero from '@/public/Home-hero.png'
 import About from '@/public/about.png'
-import Deco from '@/public/decor.png'
 import Banner from '@/public/banner.png'
+import Deco from '@/public/decor.png'
 import Image from 'next/image'
-import EventCard from '@/components/EventCard'
-import StoreCard from './store/_component/StoreCard'
-import SermonCard from '@/components/SermonCard'
-import FeaturedProducts from '@/components/FeaturedProducts'
 import Link from 'next/link'
 
 const page = () => {
