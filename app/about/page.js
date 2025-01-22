@@ -40,8 +40,8 @@ const page = () => {
 
       <div className="py-10 flex flex-col gap-10 lg:px-20 px-4">
         <div className='py-10 flex flex-col gap-10'>
-          <div className='flex flex-col md:flex-row items-center justify-between gap-10' data-aos="fade-right">
-          <Image src={Singer1} alt="Founder1" width={500} height={500} />
+          <div className='grid grid-cols-2 items-center gap-10' data-aos="fade-right">
+          <Image src={Singer1} alt="Founder1" width={700} height={500} />
             <div className="flex flex-col gap-3">
             <h1 className="text-3xl font-semibold relative pb-1">
               Our Vision
@@ -73,7 +73,7 @@ const page = () => {
                 
               </ul>
             </div>
-            <Image src={Singer2} alt="Singer Nii Kwei" width={500} height={500} />
+            <Image src={Singer2} alt="Singer Nii Kwei" width={700} height={500} />
           </div>
         </div>
       </div>

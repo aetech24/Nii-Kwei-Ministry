@@ -48,7 +48,7 @@ const TeamSection = () => {
               alt={member.name}
               width={300}
               height={300}
-              className="w-full h-48 object-cover"
+              className="w-full h-90 object-cover"
             />
             <div className="p-4">
               <h3 className="text-xl font-semibold">{member.name}</h3>

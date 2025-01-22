@@ -1,13 +1,12 @@
 "use client";
 
-import React from 'react'
-import { useState } from 'react'
-import { CgMenu } from "react-icons/cg";
-import { AiOutlineClose } from "react-icons/ai";
-import logo from '@/public/logo.png'
-import { BsArrowUpRight } from "react-icons/bs";
-import Link from 'next/link';
+import logo from '@/public/logo.png';
 import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { AiOutlineClose } from "react-icons/ai";
+import { BsArrowUpRight } from "react-icons/bs";
+import { CgMenu } from "react-icons/cg";
 import { FaSearch, FaShoppingCart } from 'react-icons/fa';
 
 const Navbar = () => {

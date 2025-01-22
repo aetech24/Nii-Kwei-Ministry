@@ -7,6 +7,8 @@ import Image from 'next/image'
 import EventCard from '@/components/EventCard'
 import StoreCard from './store/_component/StoreCard'
 import SermonCard from '@/components/SermonCard'
+import FeaturedProducts from '@/components/FeaturedProducts'
+import Link from 'next/link'
 
 const page = () => {
   return (
@@ -24,7 +26,11 @@ const page = () => {
                 <p className='w-[60%]'>Join us as we build a vibrant community rooted in faith, hope, and love. Explore our inspiring resources, including devotionals, apparel, and more, to support your spiritual journey</p>
               </div>
               <div className="flex items-center gap-6">
-                <button className="bg-button border border-button py-2 px-6 text-lg rounded-md">Shop Now</button>
+                <Link href="/store">
+                  <button className="bg-button border border-button py-2 px-6 text-lg rounded-md hover:bg-purple-600 transition duration-300">
+                    Shop Now
+                  </button>
+                </Link>
                 <button className="border border-white py-2 px-6 text-lg rounded-md">Learn More</button>
               </div>
             </div>
@@ -49,12 +55,8 @@ const page = () => {
           <button className='text-button'>View All Events {">"}</button>
         </div>
         <div className='flex flex-col gap-4 px-16 py-10 w-full items-center'>
-          <h1 className="text-3xl font-semibold relative pb-1">
-            Featured Products
-            <span className="absolute left-0 bottom-0 w-20 h-1 bg-violet-500"></span>
-          </h1>
-          <StoreCard />
-          <button className="bg-button border text-white border-button py-2 px-6 text-lg rounded-md">Shop Now</button>
+          
+          <FeaturedProducts />
         </div>
         <div className='relative'>
           <Image src={Deco} alt="deco" className='absolute top-0 left-0 w-48'/>
