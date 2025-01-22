@@ -14,7 +14,7 @@ const page = () => {
             <div className='absolute max-md:mt-10 w-full flex flex-col gap-5 justify-center text-white px-20'>
               <div className="w-full flex flex-col gap-5 justify-center text-white">
                 <p className="text-lg relative pb-1">
-                  Donation
+                  Shop
                   <span className="absolute left-0 bottom-0 w-10 h-1 bg-violet-500"></span>
                 </p>
                 <h1 className='text-5xl font-semibold w-[65%] leading-tight'>Shop Nii Kwei Ministry Merchandise</h1>

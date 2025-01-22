@@ -10,7 +10,7 @@ const Footer = () => {
         <Image src={Logo} alt='logo' />
         <div className='flex flex-col gap-3'>
           <h1 className='text-purple-500 text-xl font-semibold'>Quick Links</h1>
-          <ul className='flex flex-col gap-2 text-lg'>
+          <ul className='flex flex-col gap-2'>
             <li>About Us</li>
             <li>Shop Now</li>
             <li>Contact Us</li>
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col gap-3'>
           <h1 className='text-purple-500 text-xl font-semibold'>Stay Updated</h1>
-          <ul className='flex flex-col gap-2 text-lg'>
+          <ul className='flex flex-col gap-2'>
             <li>Newsletter Signup</li>
             <li>Latest News</li>
             <li>New Arrivals</li>
